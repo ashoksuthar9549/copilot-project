@@ -154,3 +154,17 @@ Semantic Filter Pattern
 Explanation: This pattern involves filtering responses based on the meaning or relevance of the words, ensuring the output matches the desired context and intent.
 Example:
 "Please filter out any irrelevant terms and focus only on the key points related to climate change."
+
+new data changes
+
+CREATE TABLE cars (
+  brand VARCHAR(255),
+  model VARCHAR(255),
+  year INT
+);
+
+INSERT INTO cars (brand, model, year)
+VALUES ('Ford', 'Mustang', 1964);
+
+SELECT brand, year FROM cars;
+
